@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>songName</key>
+		<string>Moonlight Shadow</string>
+		<key>singer</key>
+		<string>Groove Coverage</string>
+		<key>picture</key>
+		<string>2</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>Lost Stars</string>
+		<key>picture</key>
+		<string>0</string>
+		<key>singer</key>
+		<string>Adam Levine</string>
+	</dict>
+	<dict>
+		<key>songName</key>
+		<string>Trespassing</string>
+		<key>picture</key>
+		<string>1</string>
+		<key>singer</key>
+		<string>Adam Lambert</string>
+	</dict>
+</array>
+</plist>

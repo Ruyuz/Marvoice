@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvoice/PlaySoundViewController.swift"
+            timestampString = "543033369.758742"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvoice.PlaySoundViewController.__deallocating_deinit"
+                  moduleName = "Marvoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruyuzhou/Desktop/Ruyu_iOSfinal_Marvoice%209.04.50%20PM/Marvoice/PlaySoundViewController.swift"
+                  timestampString = "543019038.407216"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvoice.PlaySoundViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Marvoice.PlaySoundViewController"
+                  moduleName = "Marvoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruyuzhou/Desktop/Ruyu_iOSfinal_Marvoice%209.04.50%20PM/Marvoice/PlaySoundViewController.swift"
+                  timestampString = "543019038.411491"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvoice.PlaySoundViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Marvoice.PlaySoundViewController"
+                  moduleName = "Marvoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruyuzhou/Desktop/Ruyu_iOSfinal_Marvoice%209.04.50%20PM/Marvoice/PlaySoundViewController.swift"
+                  timestampString = "543019038.415078"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "77">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvoice.PlaySoundViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Marvoice.PlaySoundViewController&gt;"
+                  moduleName = "Marvoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruyuzhou/Desktop/Ruyu_iOSfinal_Marvoice%209.04.50%20PM/Marvoice/PlaySoundViewController.swift"
+                  timestampString = "543019038.41855"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Marvoice.PlaySoundViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;Marvoice.PlaySoundViewController&gt;"
+                  moduleName = "Marvoice"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ruyuzhou/Desktop/Ruyu_iOSfinal_Marvoice%209.04.50%20PM/Marvoice/PlaySoundViewController.swift"
+                  timestampString = "543019038.421213"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h"
+            timestampString = "543033369.764263"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Marvoice/PitchChangeViewController.swift"
+            timestampString = "543039757.281162"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "didReceiveMemoryWarning()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

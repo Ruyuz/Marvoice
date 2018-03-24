@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nyq-el-hui">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="p8q-jL-Zsl">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" id="Nyq-el-hui" customClass="SplashViewController" customModule="Marvoice" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YR9-9W-Dpm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marvoice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bP9-0Y-MfL">
+                                <rect key="frame" x="0.0" y="291" width="375" height="86"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="72"/>
+                                <color key="textColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6U-53-sIS">
+                                <rect key="frame" x="127" y="477" width="120" height="40"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fYq-F3-CZo"/>
+                                    <constraint firstAttribute="width" constant="120" id="yvw-6c-orR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                                <state key="normal" title="Ruyu Zhou">
+                                    <color key="titleColor" red="0.82505155460000001" green="0.64351725820000005" blue="0.70213698209999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" red="0.93699103589999999" green="0.78072005509999998" blue="0.72076720000000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapContinue:" destination="Nyq-el-hui" eventType="touchUpInside" id="DcW-g2-d0U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94820588827133179" green="0.8157309889793396" blue="0.78110915422439575" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bP9-0Y-MfL" firstAttribute="leading" secondItem="jN2-9M-8OD" secondAttribute="leading" id="AeO-9w-qYD"/>
+                            <constraint firstItem="G6U-53-sIS" firstAttribute="centerX" secondItem="bP9-0Y-MfL" secondAttribute="centerX" id="JDi-mR-dnQ"/>
+                            <constraint firstItem="G6U-53-sIS" firstAttribute="top" secondItem="bP9-0Y-MfL" secondAttribute="bottom" constant="100" id="RdB-9x-kmW"/>
+                            <constraint firstItem="jN2-9M-8OD" firstAttribute="trailing" secondItem="bP9-0Y-MfL" secondAttribute="trailing" id="f1Y-a7-RdM"/>
+                            <constraint firstItem="bP9-0Y-MfL" firstAttribute="centerX" secondItem="YR9-9W-Dpm" secondAttribute="centerX" id="sa6-v3-fpU"/>
+                            <constraint firstItem="bP9-0Y-MfL" firstAttribute="centerY" secondItem="YR9-9W-Dpm" secondAttribute="centerY" id="uay-dr-Mha"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jN2-9M-8OD"/>
+                    </view>
+                    <connections>
+                        <outlet property="dismissButton" destination="G6U-53-sIS" id="Hfi-35-kk5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rDh-lM-hMN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
